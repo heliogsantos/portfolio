@@ -22,7 +22,7 @@ header {
 	-webkit-box-shadow: 0px 1px 16px 0px rgba(0,0,0,0.07);
 	-moz-box-shadow: 0px 1px 16px 0px rgba(0,0,0,0.07);
 	box-shadow: 0px 1px 16px 0px rgba(0,0,0,0.07);
-	z-index: 5;
+	z-index: 99999;
 }
 nav{
 	width: 90%;
@@ -52,10 +52,16 @@ nav ul li a {
 	font-size:13px;
 	padding-right: 5px;
 }
+nav ul li a:hover {
+	color: #686868;
+}
 nav ul .active {
 	border: 1px solid black;
 	padding: 1px 15px;
 	padding-left: 18px;
+}
+nav ul .active:hover {
+	border: 1px solid #686868;
 }
 .section_one {
 	width: 100%;
@@ -117,8 +123,9 @@ section.two {
 	background-color: #f0f0f0;
 	position: relative;
 	top: 60px;
+	z-index: 999;
 }
-section.two  .container {
+section.two .container {
 	background: #f0f0f0;
 	height: 100%;
 	width: 91.5%;
@@ -141,9 +148,17 @@ section.two  .container {
 	width: 23%;
 	height: 208px;
 	background-color: #f0f0f0;
-	-webkit-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.13);
-	-moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.13);
-	box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.13);
+	transition: 0.6s;
+	-webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.15);
+	cursor: pointer;
+}
+.jobs .box:hover {
+	background-color: black;
+	-webkit-box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.12);
+	box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.12);
 }
 .jobs .box img{
 	width: 100%;
@@ -153,23 +168,23 @@ section.two  .container {
 .details {
 	width: 50%;
 	position: relative;
-	left: 50%;
+	left: 51%;
 	transform: translateX(-50%);
 	height: 200px;
 	display: flex;
 	justify-content: space-around;
-	top: 30px;
+	top: 60px;
 }
 .details h3 {
-	font-size: 17px;
+	font-size: 14px;
 	font-weight: lighter;
 	text-align: center;
 }
 .icon_details {
 	overflow: hidden;
-	width: 100px;
-	height: 100px;
-	border-radius: 50px;
+	width: 64px;
+	height: 64px;
+	border-radius: 100%;
 	-webkit-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.13);
 	-moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.13);
 	box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.13);
@@ -180,15 +195,15 @@ section.two  .container {
 	transform: translateX(-50%);
 }
 .icon_details img {
-	width: 64px;
-	height: 64px;
+	width: 34px;
+	height: 34px;
 	position: relative;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
 }
 .quant_project span, .quant_cup span  {
-	font-size: 26px;
+	font-size: 23px;
 	font-weight: 900;
 	position: relative;
 	text-align: center;
@@ -215,7 +230,7 @@ section.about {
 	transform: translateX(-50%);
 }
 .line_button {
-	width: 2px;
+	width: 1px;
 	height: 300px;
 	background-color: #2a2a2a;
 	position: relative;
@@ -236,6 +251,7 @@ section.about {
 	padding: 0px 40px;
 	font-weight: lighter;
 	font-size: 14px;
+	padding-bottom: 30px;
 	line-height: 2;
 }
 .front_text {
@@ -245,7 +261,27 @@ section.about {
 	padding: 0px 40px;
 	font-weight: lighter;
 	font-size: 14px;
+	padding-bottom: 30px;
 	line-height: 2;
+}
+.download button:hover {
+	color: #686868;
+}
+.download button{
+	text-align: center;
+	border-style: none;
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 3px 40px;
+	transition: 0.6s;
+	font-size: 14px;
+	font-weight: 300;
+	position: relative;
+	top: 50px;
+	outline: none;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
 }
 footer {
 	width: 100%;
@@ -255,7 +291,7 @@ footer {
 	background-color: #121111;
 }
 footer .redes {
-	width: 50%;
+	width:33.33%;
 	height: 100%;
 	float: left;
 }
@@ -278,3 +314,17 @@ footer .redes .icon  img {
 	height: 60%;
 	transform: translate(-50%,-50%);
 }
+footer .email h6{
+	float: right;
+	color: white;
+	font-weight: lighter;
+	font-size: 13px;
+	padding-right: 18px;
+	position: relative;
+	top: 20px;
+}
+footer .email span {
+	font-weight: 700;
+	font-size: 15px;
+}
+

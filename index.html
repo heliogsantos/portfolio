@@ -3,23 +3,28 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Portfólio Front-End">
+	 <meta name="author" content="Hélio Gonzaga Santos Júnior">
+	 <meta name="keywords" content="Front-End, Designer, Back-End">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900" rel="stylesheet">
 	<title>Hélio Gonzaga Santos Jr.</title>
 </head>
 <body>
 <main>
+	<!-- Header -->
 	<header>
 		<nav>
 			<div class="logo">Hélio</div>
 			<ul>
-				<li><a href="#">PORTFÓLIO</a></li>
-				<li><a href="#">SOBRE</a></li>
-				<li class="active"><a href="#">CONTATO</a></li>
+				<li><a class="scroll" href="#portfolio">PORTFÓLIO</a></li>
+				<li><a class="scroll" href="#sobre">SOBRE</a></li>
+				<li class="active"><a class="scroll" href="#contato">CONTATO</a></li>
 			</ul>
 		</nav>
 		<div class="clear"></div>
 	</header>
+	<!-- Header -->
 
 	<!-- Section_one -->
 	<div class="layer"></div>
@@ -28,43 +33,43 @@
 		<div class="titles">
 			<h1>Bem Vindo(a)</h1>
 			<h2>Hélio Gonzaga Santos Jr.</h2>
-			<button>PORTFÓLIO</button>
+			<a class="scroll" href="#portfolio"><button class="btn1">PORTFÓLIO</button></a>
 		</div>
 		<div class="clear"></div>
 	</section>
 	<!-- Section_one -->
 
 	<!-- Section_two -->
-	<section class="two">
+	<section class="two" id="portfolio">
 		<div class="container">
-			<div class="title_jobs">Projetos</div>
+			<div class="title_jobs">Projetos e Participações</div>
 			<div class="jobs">
 				<div class="box">
-					<img src="images/mock1.jpg">
+					 <a target="_blank" href="https://www.colegioatena.com.br/"><img src="images/mock1.jpg"  alt="Colégio Atena"></a>
 				</div>
 				<div class="box">
-					<img src="images/mock1.jpg">
+					 <a target="_" href="https://arabek.com.br/"><img src="images/mock2.jpg"  alt="Restaurante arabek"></a>
 				</div>
 				<div class="box">
-					<img src="images/mock1.jpg">
+					 <a target="_blank" href="https://www.institutoganzsanchez.com.br/"><img src="images/mock3.jpg"  alt="Instituto Ganz Sanchez"></a>
 				</div>
 				<div class="box">
-					<img src="images/mock1.jpg">
+					 <a target="_blank" href="https://www.pergunteaodermatologista.com.br/"><img src="images/mock4.jpg"  alt="Pergunte ao Dermatologista"></a>
 				</div>
 			</div>
 			<br>
 			<div class="jobs">
 				<div class="box">
-					<img src="images/mock1.jpg">
+					 <a target="_blank" href="http://www.escolajulia.com.br/"><img src="images/mock5.jpg"  alt="Escola Julia"></a>
 				</div>
 				<div class="box">
-					<img src="images/mock1.jpg">
+					 <a target="_blank" href="https://www.startcont.com.br/"><img src="images/mock6.jpg"  alt="Start Contabilidade"></a>
 				</div>
 				<div class="box">
-					<img src="images/mock1.jpg">
+					 <a target="_blank" href="http://www.installtech.com.br/"><img src="images/mock7.jpg"  alt="Install Tech"></a>
 				</div>
 				<div class="box">
-					<img src="images/mock1.jpg">
+					 <a target="_blank" href="http://www.nnmultforma.com/"><img src="images/mock8.jpg"  alt="Academia nnmultforma"></a>
 				</div>
 			</div>
 
@@ -75,26 +80,27 @@
 					<div class="icon_programmer icon_details">
 						<img src="icons/programmer.png">
 					</div>
-					<span>13</span>
+					<span>8</span>
 				</div>
 				<div class="quant_cup">
 					<h3>Quantidade de Xícaras de Café</h3>
 					<div class="icon_programmer icon_details">
-						<img src="icons/cup.png">
+						<img src="icons/cup.png" alt="Icone Xícara">
 					</div>
-					<span>130</span>
+					<span>80</span>
 				</div>
 			</div>
+			<!-- Details -->
 			<br>
 		</div>
 	</section>
 	<!-- Section_two -->
 
 	<!-- Section_three -->
-	<section class="about">
+	<section class="about" id="sobre">
 		<div class="container">
 			<div class="img-about">
-				<img src="images/about-img.jpg">
+				<img src="images/about-img.jpg" alt="Imagem Hélio Gonzaga Santos Júnior">
 			</div>
 			<div class="text">
 				<p class="design_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -106,7 +112,7 @@
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				proident, sunt in culpa qui officia deserunt mollit anim id est</p>
 
 				<div class="line_button"></div>
 
@@ -119,33 +125,37 @@
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				proident, sunt in culpa qui officia deserunt mollit anim id est</p>
 			</div>
+		</div>
+		<div class="download">
+			<a href="cv/Helio-Gonzaga.pdf" download><button>DOWNLOAD CURRICULO</button></a>
 		</div>
 	</section>
 	<!-- Section_three -->
 
 	<!-- Section_four -->
-	<footer>
+	<footer id="contato">
 		<div class="redes">
 			<div class="icon">
-				<img src="icons/facebook.png">
+				<a href="https://www.facebook.com/junior.ringote" target="_blank"><img src="icons/facebook.png" alt="icone facebook"></a>
 			</div>
 			<div class="icon">
-				<img src="icons/instagram.png">
+				<a href="https://www.instagram.com/juniorringote/?hl=pt-br" target="_blank"><img src="icons/instagram.png" alt="icone instagram"></a>
 			</div>
 			<div class="icon">
-				<img src="icons/github.png">
+				<a href="https://github.com/ringote" target="_blank"><img src="icons/github.png" alt="icone github"></a>
 			</div>
+		</div>
+
+		<div class="email">
+			<h6><span>E-mail: </span>helio.santosjunior@outlook.com</h6>
 		</div>
 	</footer>
 	<!-- Section_four -->
-
-
-
-	
 </main>
-<!-- Script app -->
+<!-- Script -->
+<script src="js/jquery.js"></script>
 <script src="js/app.js"></script>
 </body>
 </html>

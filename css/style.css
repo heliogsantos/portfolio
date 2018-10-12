@@ -14,6 +14,12 @@ html, body {
 .clear {
 	clear: both;
 }
+.sobre-m {
+	display: none;
+}
+.sobre-mobile {
+	display: none !important;
+}
 header {
 	width: 100%;
 	height: 60px;
@@ -327,4 +333,618 @@ footer .email span {
 	font-weight: 700;
 	font-size: 15px;
 }
-
+@media screen and (max-width: 375px) {
+.visible-desktop {
+	display: none;
+}
+.sobre-desktop {
+	display: none;
+}
+.sobre-mobile {
+	display: block;
+	width: 100%;
+	display: block;
+	position: relative;
+	top: 70px;
+	padding: 10px 20px;
+	padding-bottom: 30px;
+}
+.sobre-mobile h5 {
+	text-align: center;
+	font-size: 18px;
+	padding: 5px 10px;
+}
+.text-about-mobile {
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 10px 30px;
+	text-align: justify;
+	line-height: 2;
+	word-wrap: break-word;
+}
+nav .logo {
+	font-size: 22px;
+	top:12px;
+}
+nav ul li  {
+	display: inline-block;
+	position: relative;
+	top: 14px;
+}
+nav ul li a {
+	font-size:11px;
+	padding-right: 0px;
+}
+section.two {
+	width: 100%;
+	padding: 5px 10px;
+}
+section.two .container {
+	width: 100%;
+}
+.title_jobs {
+	font-size: 17px;
+	text-align: center;
+	font-weight: 700;
+	padding: 30px 13px;
+}
+.jobs {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.jobs .box {
+	width: 90%;
+	height: 220px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.details {
+	width: 100%;
+	position: relative;
+	left: 52%;
+	transform: translateX(-50%);
+	height: 420px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	top: 10px;
+	padding: 40px 0;
+}
+.details h3 {
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: center;
+	padding: 0px 40px;
+}
+footer {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	top: 70px;
+	background-color: #121111;
+}
+footer .redes {
+	width:50%;
+	position: relative;
+	left: 55%;
+	transform: translateX(-50%);
+}
+footer .email h6{
+	display: none;
+}
+}
+@media screen and (max-width: 425px) and (min-width: 376px) {
+.visible-desktop {
+	display: none;
+}
+.sobre-desktop {
+	display: none;
+}
+.sobre-m {
+	display: block;
+}
+.sobre-mobile {
+	display: block;
+	width: 100%;
+	display: block;
+	position: relative;
+	top: 70px;
+	padding: 10px 20px;
+	padding-bottom: 30px;
+}
+.sobre-mobile h5 {
+	text-align: center;
+	font-size: 18px;
+	padding: 5px 10px;
+}
+.text-about-mobile {
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 10px 30px;
+	text-align: justify;
+	line-height: 2;
+	word-wrap: break-word;
+}
+nav .logo {
+	font-size: 22px;
+	top:12px;
+}
+nav ul li  {
+	display: inline-block;
+	position: relative;
+	top: 14px;
+}
+nav ul li a {
+	font-size:11px;
+	padding-right: 0px;
+}
+section.two {
+	width: 100%;
+	padding: 5px 10px;
+}
+section.two .container {
+	width: 100%;
+}
+.title_jobs {
+	font-size: 17px;
+	text-align: center;
+	font-weight: 700;
+	padding: 30px 13px;
+}
+.jobs {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.jobs .box {
+	width: 90%;
+	height: 240px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.details {
+	width: 100%;
+	position: relative;
+	left: 52%;
+	transform: translateX(-50%);
+	height: 420px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	top: 10px;
+	padding: 40px 0;
+}
+.details h3 {
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: center;
+	padding: 0px 40px;
+}
+footer {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	top: 70px;
+	background-color: #121111;
+}
+footer .redes {
+	width:50%;
+	position: relative;
+	left: 55%;
+	transform: translateX(-50%);
+}
+footer .email h6{
+	display: none;
+}
+}
+@media screen and (max-width: 500px) and (min-width: 426px) {
+.visible-desktop {
+	display: none;
+}
+.sobre-desktop {
+	display: none;
+}
+.sobre-m {
+	display: block;
+}
+.sobre-mobile {
+	display: block;
+	width: 100%;
+	display: block;
+	position: relative;
+	top: 70px;
+	padding: 10px 20px;
+	padding-bottom: 30px;
+}
+.sobre-mobile h5 {
+	text-align: center;
+	font-size: 18px;
+	padding: 5px 10px;
+}
+.text-about-mobile {
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 10px 30px;
+	text-align: justify;
+	line-height: 2;
+	word-wrap: break-word;
+}
+nav .logo {
+	font-size: 22px;
+	top:12px;
+}
+nav ul li  {
+	display: inline-block;
+	position: relative;
+	top: 14px;
+}
+nav ul li a {
+	font-size:11px;
+	padding-right: 0px;
+}
+section.two {
+	width: 100%;
+	padding: 5px 10px;
+}
+section.two .container {
+	width: 100%;
+}
+.title_jobs {
+	font-size: 17px;
+	text-align: center;
+	font-weight: 700;
+	padding: 30px 13px;
+}
+.jobs {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.jobs .box {
+	width: 90%;
+	height: 270px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.details {
+	width: 100%;
+	position: relative;
+	left: 52%;
+	transform: translateX(-50%);
+	height: 420px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	top: 10px;
+	padding: 40px 0;
+}
+.details h3 {
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: center;
+	padding: 0px 40px;
+}
+footer {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	top: 70px;
+	background-color: #121111;
+}
+footer .redes {
+	width:50%;
+	position: relative;
+	left: 60%;
+	transform: translateX(-50%);
+}
+footer .email h6{
+	display: none;
+}
+}
+@media screen and (max-width: 600px) and (min-width: 501px) {
+.visible-desktop {
+	display: none;
+}
+.sobre-desktop {
+	display: none;
+}
+.sobre-m {
+	display: block;
+}
+.sobre-mobile {
+	display: block;
+	width: 100%;
+	display: block;
+	position: relative;
+	top: 70px;
+	padding: 10px 20px;
+	padding-bottom: 30px;
+}
+.sobre-mobile h5 {
+	text-align: center;
+	font-size: 18px;
+	padding: 5px 10px;
+}
+.text-about-mobile {
+	font-weight: lighter;
+	font-size: 14px;
+	padding: 10px 30px;
+	text-align: justify;
+	line-height: 2;
+	word-wrap: break-word;
+}
+nav .logo {
+	font-size: 22px;
+	top:12px;
+}
+nav ul li  {
+	display: inline-block;
+	position: relative;
+	top: 14px;
+}
+nav ul li a {
+	font-size:11px;
+	padding-right: 0px;
+}
+section.two {
+	width: 100%;
+	padding: 5px 10px;
+}
+section.two .container {
+	width: 100%;
+}
+.title_jobs {
+	font-size: 17px;
+	text-align: center;
+	font-weight: 700;
+	padding: 30px 13px;
+}
+.jobs {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.jobs .box {
+	width: 90%;
+	height: 400px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.details {
+	width: 100%;
+	position: relative;
+	left: 52%;
+	transform: translateX(-50%);
+	height: 420px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	top: 10px;
+	padding: 40px 0;
+}
+.details h3 {
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: center;
+	padding: 0px 40px;
+}
+footer {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	top: 70px;
+	background-color: #121111;
+}
+footer .redes {
+	width:50%;
+	position: relative;
+	left: 65%;
+	transform: translateX(-50%);
+}
+footer .email h6{
+	display: none;
+}
+}
+@media screen and (max-width: 768px) and (min-width: 601px) {
+.visible-desktop {
+	display: none;
+}
+section.two .container {
+	background: #f0f0f0;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.title_jobs {
+	font-size: 18px;
+	font-weight: 700;
+	padding: 40px 13px;
+}
+.jobs {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.jobs .box {
+	width: 23%;
+	height: 150px;
+}
+.jobs .box img{
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+}
+.details {
+	width: 50%;
+	position: relative;
+	left: 51%;
+	transform: translateX(-50%);
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	top: 60px;
+}
+.details h3 {
+	font-size: 14px;
+	font-weight: lighter;
+	text-align: center;
+}
+.icon_details {
+	overflow: hidden;
+	width: 64px;
+	height: 64px;
+	border-radius: 100%;
+	-webkit-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.13);
+	-moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.13);
+	box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.13);
+	background-color: white;
+	position: relative;
+	left: 50%;
+	top: 20px;
+	transform: translateX(-50%);
+}
+.icon_details img {
+	width: 34px;
+	height: 34px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.quant_project span, .quant_cup span  {
+	font-size: 23px;
+	font-weight: 900;
+	position: relative;
+	text-align: center;
+	display:block;
+	top: 27px;
+}
+section.about {
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 10px 0;
+	padding-bottom: 90px;
+	top: 60px;
+	background-color: #f9f9f9;
+}
+.img-about {
+	width: 100%;
+	background-color: #f9f9f9;
+}
+.img-about img {
+	position: relative;
+	left: 50%;
+	top: 20px;
+	transform: translateX(-50%);
+}
+.line_button {
+	width: 1px;
+	height: 300px;
+	background-color: #2a2a2a;
+	position: relative;
+	top: 10px;
+}
+.text {
+	width: 90%;
+	top: 20px;
+	position: relative;
+	display: flex;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.design_text {
+	width: 50%;
+	height: auto;
+	text-align: right;
+	padding: 0px 40px;
+	font-weight: lighter;
+	font-size: 14px;
+	padding-bottom: 30px;
+	line-height: 2;
+}
+.front_text {
+	width: 50%;
+	height: auto;
+	text-align: left;
+	padding: 0px 40px;
+	font-weight: lighter;
+	font-size: 14px;
+	padding-bottom: 30px;
+	line-height: 2;
+}
+.download button:hover {
+	color: #686868;
+}
+.download button{
+	text-align: center;
+	border-style: none;
+	background-color: transparent;
+	border: 1px solid black;
+	padding: 3px 40px;
+	transition: 0.6s;
+	font-size: 14px;
+	font-weight: 300;
+	position: relative;
+	top: 50px;
+	outline: none;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: pointer;
+}
+footer {
+	width: 100%;
+	height: 60px;
+	position: relative;
+	top: 70px;
+	background-color: #121111;
+}
+footer .redes {
+	width:33.33%;
+	height: 100%;
+	float: left;
+}
+footer .redes .icon {
+	width: 30px;
+	overflow: hidden;
+	height: 30px;
+	border-radius: 100%;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+	top: 16px;
+	background-color: white;
+}
+footer .redes .icon  img {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 60%;
+	height: 60%;
+	transform: translate(-50%,-50%);
+}
+footer .email h6{
+	float: right;
+	color: white;
+	font-weight: lighter;
+	font-size: 13px;
+	padding-right: 18px;
+	position: relative;
+	top: 20px;
+}
+footer .email span {
+	font-weight: 700;
+	font-size: 15px;
+}
